@@ -7,6 +7,7 @@
 ## Instructions for Running on OSX
 
 1. #### Make sure you have Homebrew installed
+
 2. #### Install Node:
   `brew install node`
 
