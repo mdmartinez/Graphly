@@ -1,47 +1,47 @@
 {
   "nodes": [
     {
-      "name":"Frolia",
+      "name":"City 1",
       "color":1
     },
     {
-      "name":"Hailea",
+      "name":"City 2",
       "color":2
     },
     {
-      "name":"Hanalei",
+      "name":"City 3",
       "color":3
     },
     {
-      "name":"Hauauai",
+      "name":"City 4",
       "color":4
     },
     {
-      "name":"Kaleola",
+      "name":"City 5",
       "color":5
     },
     {
-      "name":"Lainea",
+      "name":"City 6",
       "color":6
     },
     {
-      "name":"Lakua",
+      "name":"City 7",
       "color":7
     },
     {
-      "name":"Maeulia",
+      "name":"City 8",
       "color":8
     },
     {
-      "name":"Paukaa",
+      "name":"City 9",
       "color":9
     },
     {
-      "name":"Poipu",
+      "name":"City 10",
       "color":10
     },
     {
-      "name":"Waimea",
+      "name":"City 11",
       "color":11
     }
   ],
