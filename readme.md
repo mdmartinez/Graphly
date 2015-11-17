@@ -1,6 +1,6 @@
 # Graphly
 
-## Graphly is a [D3.js force-directed layout graph](https://github.com/mbostock/d3/wiki/Force-Layout). This is meant as a demonstration of what D3 can be used for. The main functionality is the ability to click and highlight two nodes at a time. It comes with a seed JSON file of hypothetical cities, so you have everything you need to see the demo.
+## Graphly is a [D3.js force-directed graph layout](https://github.com/mbostock/d3/wiki/Force-Layout). This is meant as a demonstration of what D3 can be used for. The main functionality is the ability to click and highlight two nodes at a time. It comes with a seed JSON file of hypothetical cities, so you have everything you need to see the demo.
 
 ![Demo](image.png)
 
