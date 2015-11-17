@@ -7,16 +7,16 @@
 ## Instructions for Running on OSX
 
 1. #### Make sure you have Homebrew installed
-- #### Install Node:
+2. #### Install Node:
   `brew install node`
 
-- #### Install Node's HTTP Server:
+3. #### Install Node's HTTP Server:
   `npm install http-server -g`
 
-- #### Start the server in the directory:
+4. #### Start the server in the directory:
 `http-server`
 
-- #### Navigate to localhost:8080
+5. #### Navigate to localhost:8080
 
 ---
 The nodes can be clicked on and dragged around the canvas.
