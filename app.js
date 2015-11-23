@@ -16,15 +16,15 @@ d3.json("towns.json", function(error, graph) {
   var nodes = graph.nodes,
       links = graph.links,
       sp = new ShortestPathCalculator(nodes, links),
-      froilaPoipuPath = sp.findRoute(1,9),
-      froilaPoipuLinks = [],
+      routeOne = sp.findRoute(1,9),
+      routeOneLinks = [],
       clickedNodes = [];
 
-  for (i = 0; i < froilaPoipuPath['path'].length; i++) {
+  for (i = 0; i < routeOne['path'].length; i++) {
     for (j = 0;  j < links.length; j++) {
-      if (links[j]['source'] == froilaPoipuPath['path'][i]['source'] &
-          links[j]['target'] == froilaPoipuPath['path'][i]['target']) {
-          froilaPoipuLinks.push(links[j]);
+      if (links[j]['source'] == routeOne['path'][i]['source'] &
+          links[j]['target'] == routeOne['path'][i]['target']) {
+          routeOneLinks.push(links[j]);
       };
     };
   };
@@ -67,7 +67,7 @@ d3.json("towns.json", function(error, graph) {
       .style("stroke-width", function(d) { return Math.sqrt(d.distance); });
 
   var linksHighlighted = svg.selectAll(".active")
-      .data(froilaPoipuLinks)
+      .data(routeOneLinks)
       .enter().append("line")
       .attr("class", "active")
       .style("stroke-width", function(d) { return Math.sqrt(d.distance); });
